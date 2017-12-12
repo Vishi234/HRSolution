@@ -1,0 +1,62 @@
+﻿
+.login-base {
+    background-color: #eee;
+}
+
+.header {
+    background: #A0D468;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px 6px 39px rgba(0,0,0,0.1);
+}
+
+.login-form {
+    margin: 150px auto;
+    padding: 20px;
+}
+
+    .login-form li {
+        margin-bottom: 10px;
+    }
+
+.text-control {
+    border: none;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    border-radius: 4px;
+}
+
+.login-form li svg {
+    width: 30px;
+    position: absolute;
+    margin: 5px 11px;
+}
+
+.login-form li p a {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.login-form li .btn {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.login-footer 
+{
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    background: #ccc;
+    position: fixed;
+    bottom: 0;
+}
+.login-footer p i
+{
+    margin-right: 5px;
+}

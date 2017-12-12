@@ -1,0 +1,226 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/Style.css" rel="stylesheet" />
+    <link href="~/Content/SweetAlert2.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <script src="~/Scripts/SweetAlert2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Content/nice-select.css">
+    <title>Techub CRM - Complete Techborne</title>
+</head>
+<body class="base">
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9 col-xs-12 col-sm-9 col-md-9">
+                    <div class="main-menu">
+                        <div class="allApps">
+                            <i data-toggle="modal" data-target="#AppLauncher" class="fa fa-bars"></i>
+
+                        </div>
+                        <ul>
+                            <li><a href="javascript:void(0)">Home</a></li>
+                            <li><a href="javascript:void(0)">Accounts</a></li>
+                            <li><a href="javascript:void(0)">Contacts</a></li>
+                            <li><a href="javascript:void(0)">Leads</a></li>
+                            <li><a href="javascript:void(0)">Opportunity</a></li>
+                            <li><a href="javascript:void(0)">Calendar</a></li>
+                            <li><a href="javascript:void(0)">Groups</a></li>
+                            <li><a href="javascript:void(0)">Notes</a></li>
+                            <li><a href="javascript:void(0)">Dashboard</a></li>
+                            <li><a href="javascript:void(0)">Tasks</a></li>
+                            <li><a href="javascript:void(0)">Files</a></li>
+                            <li><a href="javascript:void(0)">Quotes</a></li>
+                            <li>
+                                <a href="javascript:void(0)" id="furtherOp"><i class="fa fa-ellipsis-h"></i></a>
+                                <div class="furtherList furtherOption">
+                                    <div class="arrow-up"></div>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Reports</a></li>
+                                        <li><a href="javascript:void(0)">Dashboard</a></li>
+                                        <li><a href="javascript:void(0)">Products</a></li>
+                                        <li><a href="javascript:void(0)">Companigns</a></li>
+                                        <li><a href="javascript:void(0)">Visits</a></li>
+                                        <li><a href="javascript:void(0)">Cases</a></li>
+                                        <li><a href="javascript:void(0)">Solutions</a></li>
+                                        <li><a href="javascript:void(0)">Vendors</a></li>
+                                        <li><a href="javascript:void(0)">Price Books</a></li>
+                                        <li><a href="javascript:void(0)">Quotes</a></li>
+                                        <li><a href="javascript:void(0)">Sales Orders</a></li>
+                                        <li><a href="javascript:void(0)">Purchase Orders</a></li>
+                                        <li><a href="javascript:void(0)">Invoices</a></li>
+                                        <li><a href="javascript:void(0)">Documents</a></li>
+                                        <li><a href="javascript:void(0)">Social</a></li>
+                                        <li><a href="javascript:void(0)">Forecast</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3">
+                    <div class="right-menu">
+                        <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-bell"></i></a></li>
+                            <li>
+                                <a href="javascript:void(0)" id="addPlugin"><i class="fa fa-plus"></i></a>
+                                <div class="furtherList addPlugin">
+                                    <div class="arrow-up"></div>
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Lead</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Account</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Contact</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Deal</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Product</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Compaign</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Task</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Event</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Call</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Case</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Solution</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Vendor</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Price Book</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Quotes</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Sales Order</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Purchase Order</a></li>
+                                        <li><a href="javascript:void(0)"><i class="fa fa-plus"></i>Invoice</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" id="proClick"><i class="fa fa-wrench"></i></a>
+                                <div class="furtherList settingOpt">
+                                    <div class="arrow-up"></div>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Setup</a></li>
+                                        <li><a href="javascript:void(0)"><b>Enterprise trial</b> expires in 14 day(s)</a></li>
+                                        <li><a href="javascript:void(0)">Try Other Editions</a></li>
+                                        <li><a href="javascript:void(0)">Contact Support <i class="fa fa-angle-right"></i></a></li>
+                                        <li><a href="javascript:void(0)">Help</a></li>
+                                        <li><a href="javascript:void(0)">Need help in Onboarding?<span>Book a 1 on 1 session</span></a></li>
+                                        <li>
+                                            <div class="col-lg-4 col-sm-4">
+                                                <div class="row">
+                                                    <div class="userImg"><img src="~/Content/Images/user.png" /></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-sm-8">
+                                                <div class="row">
+                                                    <a href="javascript:void(0)">
+                                                        <span>Vishal Singh</span>
+                                                        <span>User ID : 659236598</span>
+                                                    </a>
+                                                    <a href="javascript:void(0)">My Account</a> <a href="javascript:void(0)">Sign Out</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+
+        </div>
+    </div>
+
+    <div class="custom-modal modal fade" role="dialog" id="AppLauncher">
+        <div class="custom-modal-outside wid_65">
+            <div class="close-button">
+                <i class="fa fa-times" data-dismiss="modal"></i>
+            </div>
+            <div class="custom-modal-inside">
+                <div class="custom-modal-header">
+                    <h3>App Launcher</h3>
+                </div>
+                <div class="custom-modal-body scroll-area">
+                   <div class="apps">
+                       <ul>
+                           <li>
+                               <img src="~/Content/Images/Sales.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Sales</a>
+                                   <p>Sell smarter and faster with the world's #...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                           <li>
+                               <img src="~/Content/Images/Lead_generation.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Lead Generation</a>
+                                   <p>Generate leads fatser,and qualify and...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                           <li>
+                               <img src="~/Content/Images/Sales_operation.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Sales Operations</a>
+                                   <p>Customize and automate the sales process,...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                           <li>
+                               <img src="~/Content/Images/Sales_leadersship.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Sales Leadership</a>
+                                   <p>Monitor sales activity and guide your team...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                           <li>
+                               <img src="~/Content/Images/relationship_management.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Relationship Management</a>
+                                   <p>Build stronger cutomer relationships,man...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                           <li>
+                               <img src="~/Content/Images/logo.png" />
+                               <div class="appContent">
+                                   <a href="javascript:Void(0)">Sales Console</a>
+                                   <p>(Lighting Experience) Lets sales reps...<a href="javascript:void(0)">More</a></p>
+                               </div>
+                           </li>
+                       </ul>
+                   </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>s
+
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/jquery.nice-select.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#furtherOp").click(function () {
+                $(this).css("color", "#fff");
+                $('.furtherOption').toggle();
+            });
+            $("#addPlugin").click(function () {
+                $('.addPlugin').toggle();
+            });
+            $("#proClick").click(function () {
+                $('.settingOpt').toggle();
+            });
+        })
+    </script>
+</body>
+</html>
